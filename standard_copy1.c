@@ -28,10 +28,10 @@ int main( ) {
   }
   int i;
   for ( i = 0 ; i < N ; i++ ) {
-    if(a<M){
+    if(i<M){
       a1[i] = a1[i];
     }
-    if(a>=M){
+    if(i>=M){
       a2[i] = a1[i];
     }
   }
